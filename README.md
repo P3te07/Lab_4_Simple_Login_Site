@@ -25,8 +25,8 @@
    source venv/bin/activate
    ```
    You may have to disable some windows Powershell restrictions:
- 1. Open Windows PowerShell as an admin.
- 2. Run the command:
+   1. Open Windows PowerShell as an admin.
+   2. Run the command:
       ```
       Set-ExecutionPolicy RemoteSigned
       ```
@@ -34,9 +34,9 @@
 
    ### How to setup the database
    For this project, I used neon.tech postgresql database.
-  1. Access neon.tech and log in or register.
-  2. Create your database
-  3. Once you've created the database, in the SQL Editor tab in the left of the screen, make a new wuerry andenter the following code:
+    1. Access neon.tech and log in or register.
+    2. Create your database
+    3. Once you've created the database, in the SQL Editor tab in the left of the screen, make a new wuerry andenter the following code:
       ```
       drop table if exists Users;
 Create table Users(
