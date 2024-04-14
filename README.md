@@ -15,15 +15,11 @@
    ```
    python -m venv venv
    ```
-   ```
    On windows:
-   ```
    ```
    ./venv/Scripts/activate
    ```
-   ```
    On MacOs or Linux:
-   ```
    ```
    source venv/bin/activate
    ```
