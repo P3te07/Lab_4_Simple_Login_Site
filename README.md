@@ -25,8 +25,8 @@
    source venv/bin/activate
    ```
    You may have to disable some windows Powershell restrictions:
-  1. Open Windows PowerShell as an admin.
-  2. Run the command:
+   1. Open Windows PowerShell as an admin.
+   2. Run the command:
       ```
       Set-ExecutionPolicy RemoteSigned
       ```
