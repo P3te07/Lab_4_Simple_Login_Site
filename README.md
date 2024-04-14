@@ -25,8 +25,8 @@
    source venv/bin/activate
    ```
    You may have to disable some windows Powershell restrictions:
-   1. Open Windows PowerShell as an admin.
-   2. Run the command:
+1. Open Windows PowerShell as an admin.
+2. Run the command:
       ```
       Set-ExecutionPolicy RemoteSigned
       ```
@@ -34,9 +34,9 @@
 
    ### How to setup the database
    For this project, I used neon.tech postgresql database.
-   1. Access neon.tech and log in or register.
-   2. Create your database
-   3. Once you've created the database, in the SQL Editor tab in the left of the screen, make a new wuerry andenter the following code:
+1. Access neon.tech and log in or register.
+2. Create your database
+3. Once you've created the database, in the SQL Editor tab in the left of the screen, make a new wuerry andenter the following code:
       ```
       drop table if exists Users;
 Create table Users(
@@ -49,9 +49,18 @@ password_hash varchar(255)
     That's all with the database, we'll come back to it soon.
 
    ## How to setup the HTML pages.
-   1. In the same folder as the project, create 2 more folders, one named templates, and other named static.
-   2. In the static folder, move the styles.css file
+ 1. In the same folder as the project, create 2 more folders, one named templates, and other named static.
+ 2. In the static folder, move the styles.css file
       ![image](https://github.com/P3te07/Lab_4_Simple_Login_Site/assets/157983079/93df8838-e1b0-4dfc-b883-07a59cac2639)
+ 3. In the templates folder, move all the HTML files
+    ![image](https://github.com/P3te07/Lab_4_Simple_Login_Site/assets/157983079/c2ff895c-10b2-4324-96ac-bdd3ce8ea864)
+
+### This is how you folder is supposed to look like:
+![image](https://github.com/P3te07/Lab_4_Simple_Login_Site/assets/157983079/380fd4eb-63c6-4c74-a322-4962725da003)
+
+
+
+
       
 
    
