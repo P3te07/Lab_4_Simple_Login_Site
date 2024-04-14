@@ -58,6 +58,21 @@ password_hash varchar(255)
 ### This is how you folder is supposed to look like:
 ![image](https://github.com/P3te07/Lab_4_Simple_Login_Site/assets/157983079/380fd4eb-63c6-4c74-a322-4962725da003)
 
+  ## How to set up the code
+  1. Paste the code in your compiler
+  2. Navigate to line 10, where should be a link space "type your db link here"
+  3. Instead of "type your db link here", you have to paste in the link from your neon.tech project console(it should also include the unhidden key of your database)
+     ```
+     connection_string = "postgresql://Lab%204_owner:dbpassword12@ep-cool-dust-a2hs3ajf.eu-central-1.aws.neon.tech/Lab%204?sslmode=require"
+     ```
+     And that's all you have to do in order to startup the code.
+
+## Program Features
+1. Easy code structure
+2. The pages focus more on functionality rather that looks so the pages might be bland but the pages should work fine
+3. The ability to write, delete or update data from our database.
+
+
 
 
 
