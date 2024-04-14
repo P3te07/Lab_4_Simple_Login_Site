@@ -15,6 +15,7 @@
    ```
    python -m venv venv
    ```
+   Next you have to activate the virtual environment by using the following command.
    On windows:
    ```
    ./venv/Scripts/activate
@@ -29,7 +30,32 @@
       ```
       Set-ExecutionPolicy RemoteSigned
       ```
+   And with that, the server setup is done, now your system acts like a server for the site.
+
+   ### How to setup the database
+   For this project, I used neon.tech postgresql database.
+   1. Access neon.tech and log in or register.
+   2. Create your database
+   3. Once you've created the database, in the SQL Editor tab in the left of the screen, make a new wuerry andenter the following code:
+      ```
+      drop table if exists Users;
+Create table Users(
+username VARCHAR(255),
+email VARCHAR(255) UNIQUE,
+password_hash varchar(255)
+);
+      ```
+    Be careful, this code will delete your Users table from the database and create it again, so any data left in there is going to be deleted.
+    That's all with the database, we'll come back to it soon.
+
+   ## How to setup the HTML pages.
+   1. In the same folder as the project, create 2 more folders, one named templates, and other named static.
+   2. In the static folder, move the styles.css file
+      ![image](https://github.com/P3te07/Lab_4_Simple_Login_Site/assets/157983079/93df8838-e1b0-4dfc-b883-07a59cac2639)
+      
+
    
+       
 
 
 
